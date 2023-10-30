@@ -5,7 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 const User = () => {
   return (
     <>
-      <div className="flex justify-between mt-5 ml-3">
+      <div className="flex justify-between  ml-3">
         <Avatar
           alt="Travis Howard"
           src="/static/images/avatar/2.jpg"

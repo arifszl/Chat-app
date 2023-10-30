@@ -44,7 +44,7 @@ const Chat = () => {
           return (
             <div
               key={name}
-              className="flex items-center p-4 hover:bg-[#1a141407] cursor-pointer shadow-sm"
+              className="flex items-center p-4 hover:bg-[#1a171707] cursor-pointer shadow-sm border-b border-b-gray-300"
             >
               <Avatar
                 alt={name}
