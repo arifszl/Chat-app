@@ -5,41 +5,61 @@ import Avatar from "@mui/material/Avatar";
 
 const people = [
   {
-    name: "John Doe",
+    name: "Arif",
     status: "Online",
     img: "/static/images/avatar/1.jpg",
   },
   {
-    name: "Jane Smith",
+    name: "iron man",
     status: "Offline",
     img: "/static/images/avatar/2.jpg",
   },
   {
-    name: "Bob Johnson",
+    name: "Steve",
     status: "Available",
     img: "/static/images/avatar/3.jpg",
   },
   {
-    name: "John Doe",
+    name: "Johnathan",
     status: "Online",
     img: "/static/images/avatar/1.jpg",
   },
   {
-    name: "Jane Smith",
+    name: "Hank pym",
     status: "Offline",
     img: "/static/images/avatar/2.jpg",
   },
   {
-    name: "Bob Johnson",
+    name: "Arif",
+    status: "Online",
+    img: "/static/images/avatar/1.jpg",
+  },
+  {
+    name: "iron man",
+    status: "Offline",
+    img: "/static/images/avatar/2.jpg",
+  },
+  {
+    name: "Steve",
     status: "Available",
     img: "/static/images/avatar/3.jpg",
+  },
+  {
+    name: "Johnathan",
+    status: "Online",
+    img: "/static/images/avatar/1.jpg",
+  },
+  {
+    name: "Hank pym",
+    status: "Offline",
+    img: "/static/images/avatar/2.jpg",
   },
 ];
 
 const Chat = () => {
   return (
     <div className=" text-black flex flex-col">
-      <div className="flex-1 overflow-y-auto  ">
+      <div className="flex-1   ">
         {people.map(({ name, status, img }) => {
           return (
             <div
